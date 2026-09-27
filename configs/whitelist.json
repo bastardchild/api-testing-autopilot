@@ -1,0 +1,9 @@
+{
+  "hosts": ["localhost", "127.0.0.1"],
+  "remote": [
+    {
+      "_comment": "Add remote hosts here. 'key' is injected as the named header on every request.",
+      "_example": { "host": "api.staging.example.com", "key": "sk-abc123", "header": "X-API-Key" }
+    }
+  ]
+}

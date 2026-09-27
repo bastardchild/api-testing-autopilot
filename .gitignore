@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+examples/demo-api/node_modules/
+examples/demo-api-go/vendor/
+
+# k6 run output
+results/
+results/stream.json
+results/summary.json
+
+# Compiled / build output
+dist/
+build/
+out/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Internal working files — not part of public repo
+spec.md
+DECISIONS.md
+prompt-log.md
+bob-report-notes.md
+demo-video-script.md
+slide-deck.md
+impact-notes.md
+benchmarks/
+submission/
+
+# Large demo video — uploaded via form, not git
+*.mp4
+
+# Local secrets — never commit real keys
+configs/whitelist.local.json
+.env.local
+*.pem
+*.key
